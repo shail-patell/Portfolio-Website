@@ -30,7 +30,7 @@ const App = () => {
       <Header text="Hi there, I'm Shail!"/>
       <h2 id='subtext' className="text-center">I love coding, solving problems, and building cool things!</h2>
       <div className="text-center">
-      <img id='profilephoto' className='img-fluid' src="/assets/memoji.png" alt="" />
+      <img className='img-fluid' src="/assets/memoji.png" alt="" />
       </div>
     </>
   )
