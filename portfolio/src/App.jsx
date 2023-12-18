@@ -1,5 +1,6 @@
 import Header from "./components/Header"
 import './App.css'
+import React from "react"
 const App = () => {
   return (
     <>
@@ -28,6 +29,9 @@ const App = () => {
 </nav>
       <Header text="Hi there, I'm Shail!"/>
       <h2 id='subtext' className="text-center">I love coding, solving problems, and building cool things!</h2>
+      <div className="text-center">
+      <img id='profilephoto' className='img-fluid' src="/assets/memoji.png" alt="" />
+      </div>
     </>
   )
 }
