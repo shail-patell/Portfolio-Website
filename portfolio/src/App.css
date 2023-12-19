@@ -1,6 +1,11 @@
 
 @import url('https://fonts.googleapis.com/css2?family=Lato:wght@300&display=swap');
 
+body, html {
+    height: 100%;
+    margin: 0;
+}
+
 .navbar {
     font-family: 'Lato', sans-serif;
 }
@@ -53,7 +58,21 @@
 #subtext {
     font-family: 'Lato', sans-serif;
 }
-#profilephoto {
+#memoji {
     display: flex;
     justify-content: center;
+    position: fixed;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+}
+#memojilarge {
+    
+}
+#memojimedium {
+}
+#memojismall {
+    width: 70%;
+    height: 70%;
+    position: relative;
 }
