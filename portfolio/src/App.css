@@ -53,3 +53,7 @@
 #subtext {
     font-family: 'Lato', sans-serif;
 }
+#profilephoto {
+    display: flex;
+    justify-content: center;
+}

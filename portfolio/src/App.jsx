@@ -29,8 +29,10 @@ const App = () => {
 </nav>
       <Header text="Hi there, I'm Shail!"/>
       <h2 id='subtext' className="text-center">I love coding, solving problems, and building cool things!</h2>
-      <div className="text-center">
-      <img className='img-fluid' src="/assets/memoji.png" alt="" />
+      <div id="profilephoto"className="text-center">
+      <img className='img-fluid d-none d-lg-block d-md-none d-sm-none' src="/assets/memoji.png" alt="" />
+      <img className='img-fluid d-none d-md-block d-lg-none d-sm-none' src="/assets/memoji.png" alt="" />
+      <img className='img-fluid d-block d-sm-block d-lg-none d-md-none' src="/assets/memoji.png" alt="" />
       </div>
     </>
   )
