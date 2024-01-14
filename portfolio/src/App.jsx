@@ -27,13 +27,28 @@ const App = () => {
     </div>
   </div>
 </nav>
+    <div id="homepage">
       <Header text="Hi there, I'm Shail!"/>
       <h2 id='subtext' className="text-center">I love coding, solving problems, and building cool things!</h2>
-      <div id="memoji"className="text-center">
-      <img id="memojibig" className='img-fluid d-none d-lg-block d-md-none d-sm-none' src="/assets/memoji.png" alt="" />
-      <img id="memojmedium" className='img-fluid d-none d-md-block d-lg-none d-sm-none' src="/assets/memoji.png" alt="" />
-      <img id="memojismall" className='img-fluid d-block d-sm-block d-lg-none d-md-none' src="/assets/memoji.png" alt="" />
-      </div>
+  <div id="smallmemoji" class='text-center d-sm-block d-md-none d-lg-none d-xl-none d-xxl-none'>
+      <img id="memoji" className='img-fluid' src="/assets/memoji.png" alt="" />
+    </div>
+    <div id="mediummemoji" class='text-center d-none d-lg-none d-md-block'>
+      <img id="memoji" className='img-fluid' src="/assets/memoji.png" alt="" />
+    </div> 
+    <div id="largememoji" class='text-center d-none d-lg-block'>
+      <img id="memoji" className='img-fluid' src="/assets/memoji.png" alt="" />
+    </div>
+    <div id='scrolldownsmall' class='text-center d-sm-block d-md-none d-lg-none d-xl-none d-xxl-none'>
+    <img id="mousescrolldown" class='img-fluid' src="/assets/scrolling_mousewheel.gif" alt=""/>
+    </div>
+    <div id='scrolldownmedium' class='text-center d-none d-lg-none d-md-block'>
+    <img id="mousescrolldown" class='img-fluid' src="/assets/scrolling_mousewheel.gif" alt=""/>
+    </div>
+    <div id='scrolldownlarge' class='text-center d-none d-lg-block'>
+    <img id="mousescrolldown" class='img-fluid' src="/assets/scrolling_mousewheel.gif" alt=""/>
+    </div>
+    </div>
     </>
   )
 }

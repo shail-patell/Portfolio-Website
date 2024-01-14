@@ -58,21 +58,72 @@ body, html {
 #subtext {
     font-family: 'Lato', sans-serif;
 }
-#memoji {
-    display: flex;
-    justify-content: center;
-    position: fixed;
-    top: 50%;
-    left: 50%;
-    transform: translate(-50%,-50%);
+#smallmemoji {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    height: auto;
+    width: 65%;
+    background-color: transparent;
 }
-#memojilarge {
-    
+#scrolldownsmall {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    height: auto;
+    margin-top: -8%;
+    max-width: 40%;
+    background-color: transparent;
+    background-size: contain;
 }
-#memojimedium {
+#homepage {
+    object-fit: contain;
+    animation: fadeInAnimation ease 3s;
+    animation-iteration-count: 1;
+    animation-fill-mode: forwards;
 }
-#memojismall {
-    width: 70%;
-    height: 70%;
-    position: relative;
+#mediummemoji {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    height: auto;
+    width: 45%;
+    background-color: transparent;
 }
+#scrolldownmedium {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    height: auto;
+    margin-top: -8%;
+    max-width: 40%;
+    background-color: transparent;
+    background-size: contain;
+}
+#largememoji {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    height: auto;
+    width: 30%;
+    background-color: transparent;
+}
+#scrolldownlarge {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    height: auto;
+    margin-top: -6%;
+    max-width: 20%;
+    background-color: transparent;
+    background-size: contain;
+}
+@keyframes fadeInAnimation {
+    0% {
+        opacity: 0;
+    }
+    100% {
+        opacity: 1;
+     }
+}
+
